@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="template" client="site">
+	<name>lorian-4</name>
+	<version>4.0</version>
+	<creationDate>2024-07-25</creationDate>
+	<author>lorian</author>
+	<authorEmail>danilmockhnatkin@gmail.com</authorEmail>
+	<copyright>(C) Lorian</copyright>
+	<description>Переделанный шаблон от пользователя lorian</description>
+	<inheritable>1</inheritable>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>include</folder>
+		<folder>javascript</folder>
+		<folder>language</folder>
+		<folder>vendor</folder>
+		<filename>vendor.php</filename>
+		<filename>index.php</filename>
+		<filename>component.php</filename>
+		<filename>feed_back.php</filename>
+		<filename>error.php</filename>
+		<filename>templateOptions.xml</filename>
+		<filename>favicon.ico</filename>
+	</files>
+	<positions>
+		<position>header_item</position>
+		<position>top_menu</position>
+		<position>top</position>
+		<position>right</position>
+		<position>left</position>
+		<position>top_content</position>
+		<position>bottom_content</position>
+		<position>bottom</position>
+		<position>footer_item</position>
+		<position>counters</position>
+		<position>author</position>
+		<position>other</position>
+	</positions>
+	<languages folder="language">
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_lorian.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_lorian.sys.ini</language>
+	</languages>
+</extension>

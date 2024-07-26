@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'Сайт закрыт на техническое обслуживание. Пожалуйста, зайдите позже.';
 	public $display_offline_message = 1;
 	public $offline_image = '';
-	public $sitename = 'TestBeltona';
+	public $sitename = 'Teltona';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = 20;
@@ -16,8 +16,8 @@ class JConfig {
 	public $host = 'MySQL-8.0';
 	public $user = 'root';
 	public $password = '';
-	public $db = 'joomla_db';
-	public $dbprefix = 'til0a_';
+	public $db = 'teltona_db';
+	public $dbprefix = 'hqqm2_';
 	public $dbencryption = 0;
 	public $dbsslverifyservercert = false;
 	public $dbsslkey = '';
@@ -26,7 +26,7 @@ class JConfig {
 	public $dbsslcipher = '';
 	public $force_ssl = 0;
 	public $live_site = '';
-	public $secret = '0pvreeib0dIe2VQr';
+	public $secret = 'lOf4BYOFGDZLThBF';
 	public $gzip = false;
 	public $error_reporting = 'default';
 	public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
@@ -34,7 +34,7 @@ class JConfig {
 	public $mailonline = true;
 	public $mailer = 'mail';
 	public $mailfrom = 'danilmockhnatkin@gmail.com';
-	public $fromname = 'TestBeltona';
+	public $fromname = 'Teltona';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = false;
 	public $smtpuser = '';
