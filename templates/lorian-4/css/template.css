@@ -1,7 +1,12 @@
 /* Настройки шаблона */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 @font-face {
     font-family: Doloman Pavljenko;
     src: url("/templates/lorian/fonts/DolomanPavljenko.otf") format("opentype");
+}
+@font-face {
+    font-family: Grobled;
+    src: url("/templates/lorian-4/fonts/Gropled-Bold.otf") format("opentype");
 }
 
 :root, body {font-size: 10px;}
@@ -20,11 +25,12 @@
 
 /* Элементы */
 html {width: calc(100% + calc(100vw - 100%)); overflow-x: hidden;}
-body {display: flex; flex-direction: column; margin: 0 auto; max-width: 1920px; font-family: 'Doloman Pavljenko', sans-serif; color: #000; outline: 1px solid #ddd; overflow-x: hidden;}
+body {display: flex; flex-direction: column; margin: 0 auto; /*max-width: 1920px;*/ font-family: 'Mulish'; font-weight: 700; font-style: normal; color: #000; outline: 1px solid #ddd; overflow-x: hidden;}
 #middle main  {overflow: inherit;}
 *::before {pointer-events: none;}
-@media (min-width: 1680px) {.container {max-width: 1680px;}}
-@media (min-width: 1920px) {.bg-color::before {margin-left: -960px;}}
+@media (min-width: 1400px) { .container{max-width: 1350px;} }
+/* @media (min-width: 1680px) {.container {max-width: 1680px;}} */
+/* @media (min-width: 1920px) {.bg-color::before {margin-left: -960px;}} */
 
 h1, .h1 {}
 h2, .h2 {}
@@ -50,3 +56,30 @@ a {text-decoration: none;}
 .delay-9 {-webkit-animation-delay:1800ms;animation-delay:1800ms}
 .delay-10 {-webkit-animation-delay:2000ms;animation-delay:2000ms}
 
+
+/* Lorian */
+:root{
+	--white-color: #fff;
+}
+
+header{
+	padding-top: 20px;
+	background-color: #333333;
+}
+
+#header_items{
+	padding: 1rem 1.5rem;
+}
+
+#header_items a{
+	color: var(--white-color);
+	font-size: 1.25rem;
+}
+
+.main__logo{
+	padding-right: 1.8rem;
+}
+
+.main__menu{
+	gap: 1.25rem;
+}

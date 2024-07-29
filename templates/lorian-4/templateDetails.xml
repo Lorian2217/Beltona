@@ -3,7 +3,7 @@
 	<name>lorian-4</name>
 	<version>4.0</version>
 	<creationDate>2024-07-25</creationDate>
-	<author>lorian</author>
+	<author>LORIAN</author>
 	<authorEmail>danilmockhnatkin@gmail.com</authorEmail>
 	<copyright>(C) Lorian</copyright>
 	<description>Переделанный шаблон от пользователя lorian</description>
@@ -21,7 +21,7 @@
 		<filename>component.php</filename>
 		<filename>feed_back.php</filename>
 		<filename>error.php</filename>
-		<filename>templateOptions.xml</filename>
+		<filename>templateDetails.xml</filename>
 		<filename>favicon.ico</filename>
 	</files>
 	<positions>
